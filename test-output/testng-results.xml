@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-03T12:37:01 IST" name="All Test Suite" finished-at="2020-03-03T12:37:49 IST" duration-ms="48168">
+    <groups>
+    </groups>
+    <test started-at="2020-03-03T12:37:01 IST" name="/Users/garimasingh/gojekUIAutomation/src/org/gojek/scripts" finished-at="2020-03-03T12:37:49 IST" duration-ms="48168">
+      <class name="org.gojek.scripts.TC01">
+        <test-method is-config="true" signature="crossBrowser(java.lang.String)[pri:0, instance:org.gojek.scripts.TC01@691a7f8f]" started-at="2020-03-03T12:37:01 IST" name="crossBrowser" finished-at="2020-03-03T12:37:01 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowser -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.gojek.scripts.TC01@691a7f8f]" started-at="2020-03-03T12:37:01 IST" name="browserLaunch" finished-at="2020-03-03T12:37:08 IST" duration-ms="6701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="successFlow()[pri:0, instance:org.gojek.scripts.TC01@691a7f8f]" started-at="2020-03-03T12:37:08 IST" name="successFlow" finished-at="2020-03-03T12:37:29 IST" duration-ms="21257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successFlow -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.gojek.scripts.TC01@691a7f8f]" started-at="2020-03-03T12:37:29 IST" name="browserClose" finished-at="2020-03-03T12:37:29 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.gojek.scripts.TC01 -->
+      <class name="org.gojek.scripts.TC02">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.gojek.scripts.TC02@50a7bc6e]" started-at="2020-03-03T12:37:29 IST" name="browserLaunch" finished-at="2020-03-03T12:37:35 IST" duration-ms="5869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="failureFlow()[pri:0, instance:org.gojek.scripts.TC02@50a7bc6e]" started-at="2020-03-03T12:37:35 IST" name="failureFlow" finished-at="2020-03-03T12:37:49 IST" duration-ms="14096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureFlow -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.gojek.scripts.TC02@50a7bc6e]" started-at="2020-03-03T12:37:49 IST" name="browserClose" finished-at="2020-03-03T12:37:49 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.gojek.scripts.TC02 -->
+    </test> <!-- /Users/garimasingh/gojekUIAutomation/src/org/gojek/scripts -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

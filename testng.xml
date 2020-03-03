@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"></parameter>
+        
+    <test verbose="2" preserve-order="true" name="/Users/garimasingh/gojekUIAutomation/src/org/gojek/scripts">
+        <classes>
+            <class name="org.gojek.scripts.TC01">
+                <methods>
+                    <include name="successFlow"/>
+                </methods>
+            </class>
+            <class name="org.gojek.scripts.TC02">
+            <methods>
+                <include name="failureFlow"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
